@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2.5rem;
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: var(--color-dark-slate-grey);
+  color: var(--color-white);
+}
+
+.button:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--gradient-tomato-start),
+    var(--gradient-tomato-end)
+  );
+}
