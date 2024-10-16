@@ -3,6 +3,7 @@
 This is a submission to the [Newsletter Sign up Form Challenge](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 
 ## Links
+[Live deployment](https://ronaldyonggi.github.io/newsletter-signup-fm/)
 
 ## Built with:
 
