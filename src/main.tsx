@@ -3,12 +3,14 @@ import './styles/fonts.css';
 import './styles/global.css';
 
 import { createRoot } from 'react-dom/client';
-import Button from './components/Button/Button';
+import MainForm from './components/MainForm/MainForm';
 
 export function App() {
-  return <main>
-    <Button text='Subscribe to monthly newsletter' />
-  </main>;
+  return (
+    <main>
+      <MainForm />
+    </main>
+  );
 }
 
 createRoot(document.getElementById('root')!).render(<App />);
