@@ -1,0 +1,36 @@
+.container {
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 5px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+img {
+  width: 3.5rem;
+  margin-top: 3rem;
+}
+
+.title {
+    color: var(--color-dark-slate-grey);
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 2rem;
+}
+
+.message {
+    color: var(--color-dark-slate-grey);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
